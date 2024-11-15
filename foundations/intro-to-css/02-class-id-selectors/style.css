@@ -1,0 +1,19 @@
+.main {
+    background-color: #ff000060;
+    font-family: Verdana, "DejaVu Sans", sans-serif; /* only need quotes bc of whitespaces */
+}
+
+.main.bigger {
+    font-size: 50px;
+}
+
+#one {
+    font-size: 80px;
+    color: #0000FF;
+}
+
+#two {
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #00800080;
+}
