@@ -12,6 +12,28 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-side,
+.right-side,
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.right-side {
+  gap: 8px;
+}
+
+.links {
+  gap: 8px;
+}
+
+.notifications {
+  margin: 10px;
 }
 
 .profile-image {
@@ -27,6 +49,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding: 8px;
 }
 
 button {
